@@ -1,0 +1,141 @@
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    color: #1B1A1A;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 33px 33px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.header__nav-link {
+    font-size: 15px;
+}
+
+.header__button {
+    color: #fff;
+    background-color: #1B1A1A;
+    padding: 11px 20px;
+    border-radius: 30px;
+}
+
+.section__info {
+    margin-bottom: 100px;
+    background-color: #ECE7E4;
+}
+
+
+.section__info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 137px;
+}
+
+.section__info-subtitle {
+    color: #403E3B;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.section__info-title {
+    font-size: 64px;
+    max-width: 417px;
+}
+
+.section__info-text {
+    max-width: 415px;
+    color: #403E3B;
+    line-height: 24px;
+
+}
+
+.section__info-link {
+    padding-top: 20px;
+    padding-left: 26px;
+    color: #1B1A1A;
+}
+
+.section__main {
+    margin-bottom: 128px;
+}
+
+.section__main-container {
+    max-width: 706px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.section__main-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__main-title {
+    font-size: 32px;
+    color: #403E3B;
+}
+
+.section__main-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__main-text {
+    max-width: 493px;
+    padding-bottom: 10px;
+    color: #403E3B;
+    line-height: 24px;
+}
+
+.section__main-img {
+    display: flex;
+}   
+
+.section__main-info {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.section__main-info h5 {
+    font-size: 17px;
+    color: #1B1A1A;
+}
+
+
+.section__main-info p {
+    color: #645C55;
+    font-size: 14px;
+}
