@@ -43,6 +43,11 @@ body {
     background-color: #1B1A1A;
     padding: 11px 20px;
     border-radius: 30px;
+    transition: 1s;
+}
+
+.header__button:hover {
+    background-color: #645C55;
 }
 
 .section__info {
@@ -297,3 +302,79 @@ body {
     width: 100%;
 }
 
+.project {
+    margin: 113px 113px;
+}
+
+.project__text h5 {
+    font-size: 39px;
+    color: #1B1A1A;
+    padding-bottom: 15px;
+}
+
+.project__text p {
+    font-size: 24px;
+    color: #645C55;
+    max-width: 450px;
+    padding-bottom: 40px;
+    color: #1B1A1A;
+}
+
+.project__info {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.project__info-text p {
+     position: absolute;
+     top: 10%;
+     left: 42%;
+     transform: translate(-50%, -50%);
+     color: #645C55;
+     font-size: 14px;
+}
+
+.project__infotmaion {
+     position: relative;
+     display: inline-block;
+}
+
+.project__info-text h5 {
+    font-size: 23px;
+    position: absolute;
+    color: #403E3B;
+    top: 15%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.project__info-text a {
+    font-size: 16px;
+    position: absolute;
+    color: #fff;
+    top: 90%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+.project__info-text a {
+    background-color: #1B1A1A;
+    padding: 11px 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.project__info-text a:hover {
+    background-color: #645C55;
+}
+
+.project__link {
+    font-size: 16px;
+    color: #1B1A1A;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
