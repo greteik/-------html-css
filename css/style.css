@@ -303,7 +303,9 @@ body {
 }
 
 .project {
-    margin: 113px 113px;
+    padding: 133px 113px;
+    background-color: #F7F7F7;
+    margin-bottom: 113px;
 }
 
 .project__text h5 {
@@ -378,3 +380,135 @@ body {
     justify-content: center;
     padding-top: 50px;
 }
+
+
+.section__team {
+    margin-bottom: 120px;
+}
+
+.team__row {
+    display: flex;
+    gap: 100px;
+}
+
+.team__text {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.team__text h4 {
+    font-size: 32px;
+    color: #403E3B;
+}
+
+.team__text p {
+    color: #645C55;
+    font-size: 15px;
+    padding-bottom: 26px;
+}
+
+.team__text a {
+    color: #1B1A1A;
+    padding-left: 10px;
+}
+
+
+.team__info {
+    flex: 1;
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.team__info-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.team__info-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.team__member-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team__info-item h4 {
+    font-size: 17px;
+    color: #1B1A1A;
+}
+
+.team__info-item p {
+    font-size: 14px;
+    color: #645C55;
+}
+
+
+.section__touch {
+    background-color: #CEC4BC;
+    padding-bottom: 120px;
+}
+
+.touch__row {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.touch__text h3 {
+    font-size: 40px;
+    color: #1B1A1A;
+    max-width: 569px;
+}
+
+.touch__text a {
+    font-size: 14px;
+    color: #645C55;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.section__touch-link {
+    color: #1B1A1A;
+}
+
+
+.footer {
+    background-color: #F7F7F7;
+    padding: 60px 60px;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item p {
+    font-size: 14px;
+    color: #645C55;
+    line-height: 19px;
+}
+
+.footer__link-img {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.footer__img {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
