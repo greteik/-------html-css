@@ -5,6 +5,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -48,12 +49,18 @@ body {
     background-color: #1B1A1A;
     padding: 11px 20px;
     border-radius: 30px;
-    transition: 1s;
+    transform: scale(1);
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .header__button:hover {
     background-color: #645C55;
 }
+
+.header__button:active {
+  transform: scale(0.95); 
+}
+
 
 .section__info {
     margin-bottom: 100px;
@@ -148,6 +155,7 @@ body {
 .section__main-info h5 {
     font-size: 17px;
     color: #1B1A1A;
+    overflow-y: hidden;
 }
 
 
@@ -556,6 +564,8 @@ body {
     z-index: 1;
 }
 
+
+
 @media(max-width: 1300px) {
     .project__info {
         display: grid;
@@ -779,3 +789,4 @@ body {
         width: 300px;
     }
 }
+

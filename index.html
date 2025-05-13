@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="https://github.com/greteik/sites-new.git">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>site</title>
 </head>
@@ -22,11 +23,11 @@
                         <span></span>
                     </button>
             <ul class="menu__list">
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Projects</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">News</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Team</a></li>
-                <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+                <li class="header__nav-item"><a href="#projects" class="header__nav-link">Projects</a></li>
+                <li class="header__nav-item"><a href="#about" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#news" class="header__nav-link">News</a></li>
+                <li class="header__nav-item"><a href="#team" class="header__nav-link">Team</a></li>
+                <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contact</a></li>
                 <a href="#" class="header__button">Get template</a>
             </ul>
             </nav>
@@ -55,7 +56,7 @@
     </div>
         </section>
 
-    <section class="section__main">
+    <section id="about" class="section__main">
         <div class="section__main-container">
             <div class="section__main-items">
                 <h3 class="section__main-title">Our firm</h3>
@@ -101,7 +102,7 @@
         </div>
     </section>
 
-    <section class="section__hero">
+    <section id="news" class="section__hero">
         <div class="container">
             <div class="hero__text">
                 <p>Our process</p>
@@ -172,7 +173,7 @@
         </div>
     </section>
 
-    <section class="project">
+    <section id="projects" class="project">
         <div class="container">
             <div class="project__text">
                 <h5>Featured projects</h5>
@@ -196,7 +197,7 @@
         </div>
      </section>
 
-   <section class="section__team">
+   <section id="team" class="section__team">
         <div class="container">
             <div class="team__row">
                 <div class="team__text">
@@ -266,7 +267,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container">
             <div class="footer__row">
                 <div class="footer__item">
@@ -283,6 +284,17 @@
             </div>
         </div>
     </footer> 
+
+    <div class="modal" id="template-modal">
+  <div class="modal__content">
+    <h2>Скачать шаблон</h2>
+    <p>Введите email, чтобы получить шаблон:</p>
+    <input type="email" placeholder="Ваш email">
+    <button class="download-btn">Скачать</button>
+    <span class="modal__close">&times;</span>
+  </div>
+</div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
