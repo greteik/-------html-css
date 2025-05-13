@@ -14,8 +14,5 @@
 
 ## Скриншоты
 | Десктоп | Мобильная версия |
-|---------||---------|
-| ![Десктоп](![image](https://github.com/user-attachments/assets/db8901d7-9dce-4a93-b564-fa8665d24926)
-) | ![Мобильная](![image](https://github.com/user-attachments/assets/c2761f67-98c8-49bd-820b-e32aaaf8bb26)
-) |
-
+|---------|------------------|
+| ![Десктоп](https://github.com/user-attachments/assets/edfac961-1ae6-4c55-abc2-cc6814421b8a) | ![Мобильная](https://github.com/user-attachments/assets/2d90c42e-45fe-417f-9a20-20707b54c8cd) |
