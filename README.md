@@ -1,16 +1,21 @@
 # Wishbone+Partners
 
-## Что сделано:
-- Адаптивная вёрстка
-- Модальное окно с анимацией
-- Интерактивное меню
+Лендинг архитектурного бюро с адаптивом и интерактивными элементами.
 
-## Технологии:
-- HTML5
-- CSS3 (Flexbox, Grid)
-- JavaScript (ES6)
+## Функционал
+✅ Адаптивная верстка (Mobile First)  
+✅ Модальное окно с формой  
+✅ Бургер-меню на JS  
 
-- ## Скриншоты:
-- ![image](https://github.com/user-attachments/assets/45fc8db9-fe0e-42c4-b31e-7c50ca75b323)
-- ![image](https://github.com/user-attachments/assets/c896dc57-f176-4104-9394-b0f2069a9e8b)
+## Технологии
+- HTML5 (БЭМ-нейминг)
+- CSS3 (Flexbox, Grid, анимации)
+- JavaScript (ES6, DOM API)
+
+## Скриншоты
+| Десктоп | Мобильная версия |
+|---------|------------------|
+| ![Десктоп](![image](https://github.com/user-attachments/assets/db8901d7-9dce-4a93-b564-fa8665d24926)
+) | ![Мобильная](![image](https://github.com/user-attachments/assets/c2761f67-98c8-49bd-820b-e32aaaf8bb26)
+) |
 
